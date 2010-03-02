@@ -1,0 +1,7 @@
+访问地址：http://hpc.lzu.edu.cn:8980/kxstock/n/mobilesearch.nsf
+参数说明：mobile=需要查询的号码，该参数为7位数字的号码段(或者合理的手机号码，程序会自动截取前七位数字)
+返回值：返回值目前返回的是一个html页面，稍后根据需求可返回指定的xml或者json格式的数据；
+
+访问地址使用示例：
+查询号码13919284213的号码归属地，则对应访问地址是：
+http://hpc.lzu.edu.cn:8980/kxstock/n/mobilesearch.nsf?mobile=13919284213
