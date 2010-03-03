@@ -1,0 +1,57 @@
+“生活通”软件网络接口规范
+
+
+1 接口定义约定
+	1.1 接口信息采用HTTP + XML方式
+	1.2 客户端需要在HTTP Header中增加以下字段信息
+		字段名称	是否必选	描述
+		Action		是		调用接口名称
+	
+	1.3 服务器端需要在HTTP Header中增加以下字段信息
+		字段名称	是否必选	描述
+		result-code	是		请求响应结果码，0表示成功，其他结果码表示对应的错误信息
+
+2 业务消息体约定：
+	2.1 请求和应答消息体采用XML编码，XML格式采用W3C的1.0规范，字符编码采用UTF-8，每个XML消息都是以<?xml version="1.0" encoding="UTF-8"?>开始
+	2.2 请求消息体以<Request>作为根节点，应答消息体采用<Response>作为根节点。
+	
+	例：
+	<?xml version="1.0" encoding="UTF-8"?>
+	<Response>
+	  <GetMobileOwnerRsp>
+	    <NumberSegment>1376179</NumberSegment>
+	    <NumberOwner>上海</NumberOwner>
+	    <NumberType>移动全球通卡</NumberType>
+	  </GetMobileOwnerRsp>
+	</Response>
+
+3 业务接口定义
+	3.1 获取手机号码归属地接口(getMobileOwner)
+		3.1.1 接口描述: 获取手机号码归属地接口
+
+		3.1.2 接口消息定义
+			请求方法: GET /?mobilenumber=xxxxxxxxxxx
+
+			参数名称: mobilenumber
+			是否必选: 是
+			数据类型: string
+			描    述: 要查询的手机号码
+
+		3.1.3 请求消息体
+			无
+
+		3.1.4 响应消息
+			节点标识		父节点标识		出现次数	数据类型	节点属性	描述
+			GetMobileOwnerRsp	Response		1				无
+			NumberSegment		GetMobileOwnerRsp	1		string		无		号码段
+			NumberOwner		GetMobileOwnerRsp	1		string		无		归属地
+			NumberType		GetMobileOwnerRsp	1		string		无		卡类型
+	
+	3.2 获取城市天气预报接口(getWeatherReport)
+		3.2.1 接口描述: 获取城市天气预报信息
+		待续
+
+4. 响应结果码定义
+	响应结果码	描述
+	0		成功
+	1001		此号码无归属地信息
