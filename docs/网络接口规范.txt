@@ -55,3 +55,6 @@
 	响应结果码	描述
 	0		成功
 	1001		此号码无归属地信息
+
+
+接口地址：http://hpc.lzu.edu.cn:8980/kxstock/n/life-expert.nsf?mobilenumber=1391928
