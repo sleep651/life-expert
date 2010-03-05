@@ -1,0 +1,11 @@
+/*
+========================================================================
+ Name        : SettingContainer.loc
+ Author      : ZhangJiawei
+ Copyright   : 
+ Description : 
+========================================================================
+*/
+#ifdef LANGUAGE_01
+#include "SettingContainer.l01"
+#endif

@@ -1,0 +1,11 @@
+/*
+========================================================================
+ Name        : MainGridContainer.loc
+ Author      : ZhangJiawei
+ Copyright   : 
+ Description : 
+========================================================================
+*/
+#ifdef LANGUAGE_01
+#include "MainGridContainer.l01"
+#endif

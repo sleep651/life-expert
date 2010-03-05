@@ -1,0 +1,11 @@
+/*
+========================================================================
+ Name        : WeatherReportContainer.loc
+ Author      : ZhangJiawei
+ Copyright   : 
+ Description : 
+========================================================================
+*/
+#ifdef LANGUAGE_01
+#include "WeatherReportContainer.l01"
+#endif

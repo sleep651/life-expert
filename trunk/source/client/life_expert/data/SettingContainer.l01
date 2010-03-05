@@ -1,0 +1,12 @@
+/*
+========================================================================
+ Name        : SettingContainer.l01
+ Author      : ZhangJiawei
+ Copyright   : 
+ Description : 
+========================================================================
+*/
+// localized strings for language: UK English (01)
+#define STR_SettingContainerView_1 ""
+#define STR_SettingContainerView_2 ""
+#define STR_SettingContainerView_3 "SettingContainer"

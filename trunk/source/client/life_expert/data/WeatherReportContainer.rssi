@@ -1,0 +1,35 @@
+/*
+========================================================================
+ Name        : WeatherReportContainer.rssi
+ Author      : ZhangJiawei
+ Copyright   : 
+ Description : 
+========================================================================
+*/
+#include "WeatherReportContainer.loc"
+
+RESOURCE AVKON_VIEW r_weather_report_container_weather_report_container_view
+	{
+	cba = R_AVKON_SOFTKEYS_OPTIONS_EXIT;
+	menubar = r_weather_report_container_options_menu;
+	toolbar = 0;
+	}
+RESOURCE MENU_BAR r_weather_report_container_options_menu
+	{
+	}
+RESOURCE STATUS_PANE_APP_MODEL r_weather_report_container_status_pane
+	{
+	panes =
+		{
+		SPANE_PANE
+			{
+			id = EEikStatusPaneUidTitle;
+			type = EAknCtTitlePane;
+			resource = r_weather_report_container_title_resource;
+			}
+		};
+	}
+RESOURCE TITLE_PANE r_weather_report_container_title_resource
+	{
+	txt = STR_WeatherReportContainerView_3;
+	}

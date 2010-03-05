@@ -1,0 +1,12 @@
+/*
+========================================================================
+ Name        : MainGridContainer.l01
+ Author      : ZhangJiawei
+ Copyright   : 
+ Description : 
+========================================================================
+*/
+// localized strings for language: UK English (01)
+#define STR_MainGridContainerView_2 ""
+#define STR_MainGridContainerView_3 "MainGridContainer"
+#define STR_MainGridContainerView_1 ""

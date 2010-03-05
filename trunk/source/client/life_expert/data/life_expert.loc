@@ -1,0 +1,11 @@
+/*
+========================================================================
+ Name        : life_expert.loc
+ Author      : ZhangJiawei
+ Copyright   : 
+ Description : 
+========================================================================
+*/
+#ifdef LANGUAGE_01
+#include "life_expert.l01"
+#endif
