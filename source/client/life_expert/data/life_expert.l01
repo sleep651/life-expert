@@ -1,0 +1,13 @@
+/*
+========================================================================
+ Name        : life_expert.l01
+ Author      : ZhangJiawei
+ Copyright   : 
+ Description : 
+========================================================================
+*/
+// localized strings for language: UK English (01)
+#define STR_life_expertApplication_2 ""
+#define STR_life_expertApplication_3 "life_expert"
+#define STR_life_expertApplication_4 "life_expert"
+#define STR_life_expertApplication_1 ""

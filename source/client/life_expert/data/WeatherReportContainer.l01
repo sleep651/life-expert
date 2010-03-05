@@ -1,0 +1,12 @@
+/*
+========================================================================
+ Name        : WeatherReportContainer.l01
+ Author      : ZhangJiawei
+ Copyright   : 
+ Description : 
+========================================================================
+*/
+// localized strings for language: UK English (01)
+#define STR_WeatherReportContainerView_3 "WeatherReportContainer"
+#define STR_WeatherReportContainerView_1 ""
+#define STR_WeatherReportContainerView_2 ""

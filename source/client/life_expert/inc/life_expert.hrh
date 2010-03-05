@@ -1,0 +1,15 @@
+/*
+========================================================================
+ Name        : life_expert.hrh
+ Author      : ZhangJiawei
+ Copyright   : 
+ Description : 
+========================================================================
+*/
+enum Tlife_expertViewUids
+	{
+	EMainGridContainerViewId = 1,
+	EMobileNumberOwnerContainerViewId,
+	EWeatherReportContainerViewId,
+	ESettingContainerViewId
+	};

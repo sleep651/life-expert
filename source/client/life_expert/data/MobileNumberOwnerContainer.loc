@@ -1,0 +1,11 @@
+/*
+========================================================================
+ Name        : MobileNumberOwnerContainer.loc
+ Author      : ZhangJiawei
+ Copyright   : 
+ Description : 
+========================================================================
+*/
+#ifdef LANGUAGE_01
+#include "MobileNumberOwnerContainer.l01"
+#endif
